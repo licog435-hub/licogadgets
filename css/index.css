@@ -1,8 +1,19 @@
-/* Global Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@keyframes fadeOut24Hours {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.products-hero h1,
+.products-hero p,
+.product-card h3,
+.product-card p,
+.price,
+.product-categories h2 {
+animation: fadeOut24Hours 80000s linear forwards; 
 }
 
 body {
@@ -246,3 +257,4 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
