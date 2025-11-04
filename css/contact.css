@@ -1,3 +1,5 @@
+@import 'index.css';
+
 /* Contact specific styles */
 .contact-hero {
     text-align: center;
@@ -105,5 +107,6 @@ textarea:focus {
         padding: 1.5rem;
     }
 }
+
 
 
