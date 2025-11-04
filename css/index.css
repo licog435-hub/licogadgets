@@ -1,21 +1,3 @@
-@keyframes fadeOut24Hours {
-    0% {
-        opacity: 0%;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-.products-hero h1,
-.products-hero p,
-.product-card h3,
-.product-card p,
-.price,
-.product-categories h2 {
-animation: fadeOut24Hours 80000s linear forwards; 
-}
-
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -257,4 +239,5 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
 
