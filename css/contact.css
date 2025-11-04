@@ -1,6 +1,20 @@
-/* Import global styles */
-@import 'index.css';
+@keyframes fadeOut24Hours {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
+.products-hero h1,
+.products-hero p,
+.product-card h3,
+.product-card p,
+.price,
+.product-categories h2 {
+animation: fadeOut24Hours 80000s linear forwards; 
+}
 /* Contact specific styles */
 .contact-hero {
     text-align: center;
@@ -108,3 +122,4 @@ textarea:focus {
         padding: 1.5rem;
     }
 }
+
